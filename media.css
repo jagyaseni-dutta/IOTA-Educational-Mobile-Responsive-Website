@@ -1,0 +1,104 @@
+@media only screen and (min-width:200px) and (max-width:567px) {
+
+    .header{
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    .hero{
+        flex-direction: column;
+    }
+    .hero-content h1{
+        padding-top: 2px;
+        font-size: 40px;
+    }
+    .hero-content h2 {
+        font-size:21px;
+        padding-bottom: 30px;
+    }
+    .hero-content h4{
+        font-size:16px;
+    }
+    .hero-content p {
+        font-size:16px;
+    }
+    .hero-form{
+        height:480px;
+        max-width:320px;
+        background:#03001C;
+        margin-left:25px;
+        border-radius:20px;
+        text-align:center;
+        margin-bottom:70px;
+        
+    }
+    .section2-content{
+        flex-direction: column;
+    }
+    .section2-left{
+        flex-basis:100%;
+        
+    }
+    
+    .section2-right{
+        flex-basis:100%;
+        padding:0px 20px ;
+        
+
+    }
+    .section3 h3{
+        font-size: 22px;
+    }
+    .section3-content p{
+        font-size: 16px;
+        padding:0px 15px;
+    }
+    .next{
+        flex-direction: column;
+    }
+    .next-right{
+        display:none;
+    }
+    .result h2{
+        font-size:22px;
+    }
+    .result-content{
+        flex-direction: column;
+        padding:20px 20px;
+      
+    }
+    .div-student{
+        flex-basis:100%;
+        margin-bottom:15px;
+    }
+    .section5 h2{
+        font-size: 22px;
+    }
+    table{
+        width:320px;
+    }
+    table thead tr th{
+        font-size:16px;
+    }
+    .section6 h2{
+        font-size: 22px;
+    }
+    .section6-content{
+        flex-direction: column;
+    }
+    .section10 h3{
+        font-size: 22px;
+    }
+    .section10-content{
+        flex-direction: column;
+        padding:0px 15px;
+    }
+    .section10-content .container{
+        flex-basis: 100%;
+        padding:20px 15px;
+        margin-bottom:15px;
+    }
+}
